@@ -1,0 +1,44 @@
+theme = "gruvbox"
+
+[editor]
+true-color = true
+mouse = false
+bufferline = "multiple"
+color-modes = true
+cursorline = true
+undercurl = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name", "version-control"]
+right = [
+  "diagnostics",
+  "position",
+  "total-line-numbers",
+  "file-encoding",
+  "file-line-ending",
+  "file-type"
+]
+
+mode.normal = "NORMAL"
+mode.select = "SELECT"
+mode.insert = "INSERT"
+
+[editor.lsp]
+enable = true
+display-messages = true
+
+[editor.indent-guides]
+render = true
+skip-levels = 1
+
+[editor.soft-wrap]
+enable = true
