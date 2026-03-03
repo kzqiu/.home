@@ -9,8 +9,8 @@ cursorline = true
 undercurl = true
 
 [editor.cursor-shape]
-insert = "bar"
 normal = "block"
+insert = "bar"
 select = "underline"
 
 [editor.file-picker]
@@ -42,3 +42,6 @@ skip-levels = 1
 
 [editor.soft-wrap]
 enable = true
+
+[keys.normal]
+"'" = "goto_word"
